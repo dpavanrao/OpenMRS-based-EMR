@@ -1,0 +1,198 @@
+.Nav {
+    display: flex;
+    background-color: white;
+    color: "red";
+    height: 10vh;
+
+  }
+
+.Nav1 {
+  background-color: #282c34;
+  max-height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: rgb(175, 149, 149);
+}
+
+.Logo {
+    height: 10vh;
+    width: 200px;
+}
+
+.Hospital {
+    width: 1550px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.LogoutButton {
+  height: 10vh;
+  position: fixed;
+  right: 0;
+  top: 0;
+  padding:  5px 20px;
+  border-radius: 0;
+  border: black;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  background: #34421E;
+  cursor: pointer;
+}
+
+.Background {
+    height: 100%;
+    width: 100%;
+    aspect-ratio: 1;
+}
+
+.Box {
+    width: 25% ;
+    height: 50px;
+    padding: 10px 10px; 
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 19px;
+    font: bold;
+}
+
+.submitButton {
+  height: 50px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: black;
+  color: #34421E;
+  font-size: 16px;
+  font-weight: 800;
+  background: "#C19434";
+  cursor: pointer;
+}
+
+.Widget {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 300px;
+  height: 160px;
+  padding: 20% 10% 20% 10%;
+  background: #34421E;
+  color: #f1f1ef;
+  font-size: 18px;
+  text-align: center;
+  word-wrap: normal;
+}
+
+.Sidebar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  height: 90vh;
+  width: 20vw;
+  background-color: #34421E;
+  left: 0vw;  
+}
+
+.SidebarList {
+  width: 20vw ;
+  height: 8vh;
+  padding: 10px 10px; 
+  margin: 0px;
+  box-sizing: border-box;
+  border-radius: 0px;
+  font-size: 19px;
+  font: bold;
+  cursor: pointer;
+  background-color: #34421E;
+  color: #f1f1ef;
+}
+
+.RegistrationFormInputSmall {
+  width: 19.5vw ;
+  height: 30px;
+  padding: 5px 5px; 
+  margin: 10px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  font-size: 17px;
+  font: bold;
+}
+
+.RegistrationFormInputLarge {
+  width: 41vw ;
+  height: 30px;
+  padding: 5px 5px; 
+  margin: 10px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  font-size: 17px;
+  font: bold;
+}
+
+.RegistrationFormSubmitButton {
+  height: 45px;
+  width: 41vw;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: #34421E;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #f1f1ef;
+  cursor: pointer;
+  box-sizing: border-box;
+  line-height: 5px;
+  text-align: center;
+  font-family: "lora";
+}
+
+.SearchPatientRecordResult {
+  height: 30px;
+  width: 70vw;
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: ;
+  text-align: center;
+  font-family: "serif";
+  vertical-align: middle;
+  margin-top: 10px;
+  
+}
+
+.SearchPatientRecordSearchbar {
+  width: 70vw;
+  height: 6vh;
+  font-size: 20px;
+  border-radius: 4px;
+  border: 2px solid #34421E;
+  margin-right: 1vw;
+}
+
+.SearchPatientRecordSearchbutton {
+  width: 4vw;
+  height: 7vh;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 3px;
+  background-color: #34421E;
+  color: #f1f1ef;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.SearchPatientRecordTable {
+  border-bottom: 1px solid #34421E;
+  width: "60%";
+  font-size: 18px;
+  height: 40px;
+  border-collapse: collapse;
+  margin-left: 10vw;
+  text-align: center;
+  padding: 100px;
+}
+
+
+
